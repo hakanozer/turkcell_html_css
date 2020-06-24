@@ -1,0 +1,82 @@
+.circleBorder {
+    width: 70%; 
+    margin-top: 20px; 
+    border: 1px solid #c1c1c1; 
+    border-radius: 130px; 
+    padding: 10px;
+} 
+
+
+.headTitle {
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: #d4d4d4 !important;
+    text-align: center;
+    border-bottom: 0px solid black !important;
+}
+
+
+@keyframes animaName {
+    from { 
+        background-color: white;
+        border-width: 1px;
+    }
+    to { 
+        background-color: rgb(63, 63, 63);
+        border-width: 3px;
+    }
+}
+
+.circleBorder:hover {
+    animation-name: animaName ;
+    animation-duration: 1s;
+    background-color: rgb(63, 63, 63);
+    border-width: 3px;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+  .map-container-5{
+    overflow:hidden;
+    position:relative;
+    height:0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    .map-container-5 iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}

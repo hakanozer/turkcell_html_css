@@ -1,0 +1,131 @@
+body {
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+
+.classDiv {
+    background-color: brown;
+}
+
+.h1Class {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mainBox > div {
+   float: left; 
+   width: 150px;
+   height: 150px;
+   background-color: rgb(219, 21, 21);
+   margin: 10px;
+}
+
+.mainBox > div > p {
+    text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+    font-family: fantasy;
+    margin-top: 60px;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.imgClass {
+    width: 30%;
+    border: 2px solid black;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+a {
+    width: 100px;
+    padding: 10;
+    margin: 3px;
+    background-color: darkgray;
+    color: black;
+}
+
+a:hover {
+    background-color: brown;
+    color: azure;
+}
+
+ul {
+    list-style: lower-roman; 
+}
+
+
+table {
+    border: 1px solid rgb(128, 128, 128);
+}
+
+
+table > thead > tr > th {
+    width: 150px;
+    text-align: left;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    padding: 5px;
+}
+
+table > tbody > tr > th {
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    padding: 5px;
+}
+
+table > tbody > tr:hover {
+    background-color: rgb(182, 255, 255);
+}
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 20px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 20px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+ul.menu, ul.menu > ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 2px;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    width: 150px;
+}
+
+ul.menu > li > ul {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin-left: -40px;
+}
+
+ul.menu li > ul {
+    top: auto;
+    left: auto;
+}
+
+ul.menu > li > a {
+    display: block;
+}
+
+ul.menu li a :hover {
+    color: azure;
+    background-color: black;
+}
+
+ul.menu li:hover ul {
+    display: block;
+}
